@@ -6,6 +6,7 @@
     <title>Bike Dekho</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="ico/motorbike.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -79,8 +80,7 @@
             </ul>
           </div>
           <div class="">
-            <a
-              class="btn border-0 text-base bg-[#E76F51] text-[#fff] border poppins-t"
+            <a class="btn text-base bg-[#E76F51] text-[#fff] border poppins-t"
               >Login</a
             >
           </div>
@@ -102,7 +102,7 @@
                 </p>
                 <div class="">
                   <a
-                    class="btn border-0 text-base bg-[#E76F51] text-[#fff] border poppins-t"
+                    class="btn text-base bg-[#E76F51] text-[#fff] border poppins-t"
                     >Purchase</a
                   >
                 </div>
@@ -128,7 +128,7 @@
                 </p>
                 <div class="">
                   <a
-                    class="btn border-0 text-base bg-[#E76F51] text-[#fff] border poppins-t"
+                    class="btn text-base bg-[#E76F51] text-[#fff] border poppins-t"
                     >Purchase</a
                   >
                 </div>
@@ -154,7 +154,7 @@
                 </p>
                 <div class="">
                   <a
-                    class="btn border-0 text-base bg-[#E76F51] text-[#fff] border poppins-t"
+                    class="btn text-base bg-[#E76F51] text-[#fff] border poppins-t"
                     >Purchase</a
                   >
                 </div>
@@ -411,14 +411,14 @@
         >
           Frequently Asked <span class="text-[#E76F51]">Questions</span>
         </h1>
-        <div class="grid lg:grid-cols-2 grid-cols-1 mx-10 ">
+        <div class="grid lg:grid-cols-2 grid-cols-1 mx-10">
           <div class="m-auto">
-            <img src="other/faq.png" alt="" />
+            <img class="w-4/5" src="other/faq.png" alt="" />
           </div>
           <div class="poppins-t">
             <div class="collapse border collapse-arrow my-4">
               <input type="radio" name="my-accordion-2" checked="checked" />
-              <div class="collapse-title text-xl font-medium ">
+              <div class="collapse-title text-xl font-medium">
                 What are the most important things I should know about riding a
                 bike?
               </div>
@@ -434,8 +434,7 @@
             <div class="collapse collapse-arrow border my-4">
               <input type="radio" name="my-accordion-2" />
               <div class="collapse-title text-xl font-medium">
-                How can I tell if my helmet is old and I need a 
-                new one?
+                How can I tell if my helmet is old and I need a new one?
               </div>
               <div class="collapse-content">
                 <p>hello</p>
@@ -463,6 +462,37 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer
+      class="footer bg-[#0B0D17] text-base-content p-20 text-white poppins-t"
+    >
+      <div class="container m-auto lg:mx-10 lg:flex justify-between">
+        <div class="my-auto">
+          <nav class="flex my-5 text-base ">
+            <a class="link link-hover ">Download Now</a>
+            <a class="link link-hover ml-4">License</a>
+          </nav>
+          <nav class="lg:flex my-5 text-base">
+            <a class="link link-hover">About</a>
+            <a class="link link-hover ml-4">Features</a>
+            <a class="link link-hover ml-4">Pricing</a>
+            <a class="link link-hover ml-4">Careers</a>
+            <a class="link link-hover ml-4">Help</a>
+            <a class="link link-hover ml-4">Privacy Policy</a>
+          </nav>
+          <nav class="md:inline-block md:top-0 relative top-64">
+            <aside>
+              <p class="text-xl text-gray-500">© 2020 bike. All rights reserved</p>
+            </aside>
+          </nav>
+        </div>
+        <div>
+          <nav>
+            <h6 class="footer-title text-2xl">Get the App</h6>
+            <img class="w-3/4 my-5" src="other/android.png" alt="" />
+            <img class="w-3/4" src="other/ios.png" alt="" />
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
